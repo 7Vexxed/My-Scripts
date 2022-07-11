@@ -53,7 +53,10 @@ end)
 
 local selectedWorld;
 
-d:Dropdown("Dropdown",{"Pirate Docks","Purple Forest","Shinobi Village", "Spirit Society", "Walled City", "Narmek", "Hero Academy", "Stand City", "Hunter Kingdom", "Jiu Jitsu Sewers",},true,function(value)
+d:Dropdown("Dropdown",{"Anime Village", "Pirate Docks","Purple Forest","Shinobi Village", 
+    "Spirit Society", "Walled City", "Narmek", "Hero Academy", "Stand City", 
+    "Hunter Kingdom", "Jiu Jitsu Sewers", "The Sin Zone", "World of Fate", "AC City",
+    "Town of Dawn", "Clover Kingdom", "Ghoul City", },true,function(value)
     selectedWorld = value;
     print(value)
 end)
@@ -67,7 +70,9 @@ end)
 
 local selectedEgg;
 
-c:Dropdown("Dropdown",{"Dragon Star","Demon Star","Pirate Star", "Slayer Star", "Spirit Star", "Walled Star", "Narmekian Star", "Quirky Star", "Crazy Star", "Hunter Star", "Fighting Star",},true,function(value)
+c:Dropdown("Dropdown",{"Dragon Star","Demon Star","Pirate Star", "Slayer Star", "Spirit Star", 
+    "Walled Star", "Narmekian Star", "Quirky Star", "Crazy Star", "Hunter Star", "Fighting Star",
+    "Sinful Star", "Fate Star", "Punch Star", "Dawn Star", "Pearl Star",},true,function(value)
     selectedEgg = value;
     print(value)
 end)

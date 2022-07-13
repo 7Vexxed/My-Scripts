@@ -1,5 +1,12 @@
 print("Scripthub Loaded!")
 
+-- Supported Games:
+
+-- I don't feel so oof
+-- Anime Clickers
+-- Clicker Simulator
+-- Slashing Simulator
+
 if game.PlaceId == 3102144307 then
     print("Anime Clickers Script Loaded")
 
